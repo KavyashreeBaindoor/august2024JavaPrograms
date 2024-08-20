@@ -8,7 +8,7 @@ public class Q1 {
 		int num=7;
 		
 		if(num%2==0) 
-			System.out.println("number is even");
+			System.out.println("even number is");
 			else
 				System.out.println("odd");
 		
