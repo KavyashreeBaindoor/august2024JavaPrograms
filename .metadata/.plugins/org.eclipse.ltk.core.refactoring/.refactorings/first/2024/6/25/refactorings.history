@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;mockInterview.removeduplicateFromString&apos; to &apos;removeduplicateFromArray&apos;&#x0D;&#x0A;- Original project: &apos;first&apos;&#x0D;&#x0A;- Original element: &apos;mockInterview.removeduplicateFromString&apos;&#x0D;&#x0A;- Renamed element: &apos;mockInterview.removeduplicateFromArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;removeduplicateFromString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;mockInterview{removeduplicateFromString.java[removeduplicateFromString" matchStrategy="1" name="removeduplicateFromArray" qualified="false" references="true" similarDeclarations="false" stamp="1719042376663" textual="false" version="1.0"/>
+</session>

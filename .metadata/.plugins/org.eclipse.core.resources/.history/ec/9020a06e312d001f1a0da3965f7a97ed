@@ -1,0 +1,36 @@
+package InterviewStrings;
+
+import java.util.HashMap;
+
+public class Removeduplicate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a="kaka";
+		
+		String[] arr=a.split(""); //['k','a'....]
+		
+		String res=" ";
+		
+		HashMap<String,String> h=new HashMap<String, String>();
+		
+		for(int i=0;i<arr.length;i++) {
+			
+			if(h.containsKey(arr[i])) {
+				continue;
+			}
+			else {
+				res+=h.get(arr[i]);
+			}
+			
+		}
+		
+		
+		System.out.println(res);
+		
+		
+		
+	}
+
+}

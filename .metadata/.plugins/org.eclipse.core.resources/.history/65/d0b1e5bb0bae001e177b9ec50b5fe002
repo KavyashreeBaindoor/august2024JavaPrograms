@@ -1,0 +1,29 @@
+package first;
+
+public class mssg {
+
+	public static void main(String[] args) {
+	//to show println and print difference	
+System.out.print("i will do it");
+System.out.println(2+2);
+System.out.println("i will do it");
+
+//variables--strongly typed
+int num=2;
+System.out.println(num);
+
+int num1=2;
+int num2=4;
+System.out.println(num1 +num2);
+
+//data types
+
+//int num1=2----duplicate num1 
+int num3=2;
+int num4=4;
+float res=num3/num4;
+System.out.println(res);
+
+	}
+
+}

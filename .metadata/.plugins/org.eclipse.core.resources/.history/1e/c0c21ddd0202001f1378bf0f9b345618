@@ -1,0 +1,43 @@
+package first;
+
+import java.util.Arrays;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+	
+	Student s2=new Student(29);
+	s2.name="ranya";
+	System.out.println(s2.toString());
+	s2.greet();
+	Student s3=new Student("kavya");
+	System.out.println(s3.toString());
+}}
+
+class Student{
+	
+	Student(int a){
+		this.age=a;
+	}
+	Student(String name){
+		this.name=name;
+	}
+	Student(String name,int a){
+		this.name=name;
+		this.age=a;
+	}
+	
+	String name;int rollno;int age;
+	
+	public void greet() {
+		System.out.println("hey age is "+age);
+	}
+	
+	@Override
+	 public String toString(){
+	 return "Student[name="+name+", age="+age+",rollno="+rollno+"]";
+	 }
+	}
+	
+

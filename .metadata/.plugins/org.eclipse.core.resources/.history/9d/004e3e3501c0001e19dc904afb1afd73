@@ -1,0 +1,31 @@
+package first;
+
+import java.util.Scanner;
+
+public class IsPrime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in=new Scanner(System.in);
+		int no=in.nextInt();
+		IsPrime(no);
+
+	}
+	public static void IsPrime(int no) {
+		
+		if(no!=1) {
+			
+			if(no%1==0 & no%no==0 & no%2!=0) {
+				System.out.println("it is Prime");
+			}else {
+				System.out.println("not prime");
+			}
+			
+		}
+		else {
+			System.out.println("1 is not a prime number");
+		}
+		
+	}
+
+}

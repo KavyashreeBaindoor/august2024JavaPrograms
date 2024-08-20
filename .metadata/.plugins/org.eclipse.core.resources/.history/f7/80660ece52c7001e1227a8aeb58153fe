@@ -1,0 +1,30 @@
+package first;
+
+public class AssignmentAgile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//reverse a string with reverse method
+		String a="kavya";
+		StringBuffer b=new StringBuffer(a);
+		System.out.println(b.reverse());
+	System.out.println("&&&&&&&&");	
+		//without reverse method
+		String d="kavya";
+		d=d.concat("hello");
+		System.out.println(d);
+		//System.out.println(d==d);
+	
+		String res="";
+		System.out.println(d.charAt(0));
+		
+	for(int i=d.length();i>0;i--) {
+	         res+=d.charAt(i-1);
+		
+	}
+	System.out.println(res);
+		
+
+	}
+
+}

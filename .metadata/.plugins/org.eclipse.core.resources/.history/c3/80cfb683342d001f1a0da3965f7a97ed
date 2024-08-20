@@ -1,0 +1,49 @@
+package InterviewStrings;
+
+import java.util.Arrays;
+import java.util.HashMap;
+
+public class Removeduplicate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a="kaka";
+	
+		char[] ch=a.toCharArray();//[k, a, k,a]
+		int index=0;
+		
+		String res="";
+		
+		for(int i=0;i<ch.length;i++) {
+			
+			//System.out.println(ch[i]);
+			int j;
+			
+			for(j=ch.length-1;j>i;j--) {
+				
+				
+				System.out.println(ch[j]);
+				if(i!=j) {
+				if(ch[i]==ch[j]) {
+					continue;
+				}else {
+					res+=ch[j];
+				}
+				}
+				
+			}
+			
+			
+		}
+		
+	System.out.println(res);	
+		
+		
+		
+		
+		
+		
+	}
+
+}

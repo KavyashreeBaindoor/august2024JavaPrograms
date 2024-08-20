@@ -1,0 +1,28 @@
+package first;
+
+import java.util.Arrays;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+	Student s1=new Student();
+	s1.name="kavya";
+	System.out.println(s1.toString());
+	
+	}}
+
+
+
+class Student{
+	String name;
+	int rollno;
+	int age;
+	
+	@Override
+	 public String toString(){
+	 return "Student[name="+name+", age="+age+",rollno="+rollno+"]";
+	 }
+	}
+	
+

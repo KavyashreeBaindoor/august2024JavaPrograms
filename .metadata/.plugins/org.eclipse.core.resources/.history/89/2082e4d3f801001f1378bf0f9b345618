@@ -1,0 +1,26 @@
+package first;
+
+import java.util.Arrays;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	Student[] s1=new Student[5];
+	System.out.println(Arrays.toString(s1));
+	s1[0].name="kavya";
+	System.out.println(Arrays.toString(s1));
+	
+		
+
+	}
+
+}
+
+class Student{
+	String name;
+	int rollno;
+	int age;
+	
+}

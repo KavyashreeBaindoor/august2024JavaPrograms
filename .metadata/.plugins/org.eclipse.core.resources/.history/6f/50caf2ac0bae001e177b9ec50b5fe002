@@ -1,0 +1,21 @@
+package first;
+
+public class mssg {
+
+	public static void main(String[] args) {
+	//to show println and print difference	
+System.out.print("i will do it");
+System.out.println(2+2);
+System.out.println("i will do it");
+
+//variables
+int num=2;
+System.out.println(num);
+
+int num1=2;
+int num2=4;
+System.out.println(num1 +num2);
+
+	}
+
+}
