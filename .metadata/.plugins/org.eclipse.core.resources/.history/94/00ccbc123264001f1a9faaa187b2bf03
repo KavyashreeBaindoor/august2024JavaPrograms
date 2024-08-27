@@ -1,0 +1,42 @@
+package August2024;
+
+import java.util.Arrays;
+
+public class reverseAStrinng {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a="kavyashree";
+		
+		StringBuilder b=new StringBuilder(a);
+		b.reverse();
+		System.out.println(b);
+		System.out.println(a);
+		
+		
+		String[] arr=a.split("");
+		String rev="";
+		System.out.println(Arrays.toString(arr));//[k, a, v, y, a, s, h, r, e, e]
+
+		
+		for(int i=arr.length-1;i>0;i--) {
+			rev+=arr[i];
+		}
+		
+		System.out.println(rev);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

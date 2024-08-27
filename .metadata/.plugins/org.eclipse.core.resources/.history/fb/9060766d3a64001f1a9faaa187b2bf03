@@ -67,15 +67,8 @@ public class reverseAStrinng {
 			start++;	
 		}
 		
-		//System.out.println(Arrays.toString(k));//[e, e, e, r, h, s, a, y, v, a, k]
+		System.out.println(Arrays.toString(k));
 		
-		String rev5="";
-		
-		for(char a2:k) {
-			rev5+=a2;
-		}
-		
-		System.out.println(rev5);
 		
 		
 		//5th way --- arraylist
@@ -90,19 +83,7 @@ public class reverseAStrinng {
 		
 		Collections.reverse(al);
 		
-		//System.out.println(al); //[e, e, e, r, h, s, a, y, v, a, k]
-		
-		String rev3="";
-		
-		for(char c:al) {
-			rev3+=c;
-		}
-		
-		System.out.println(rev3);
-		
-		
-		//6thway  --- xor
-		
+		System.out.println(al);
 		
 
 	}

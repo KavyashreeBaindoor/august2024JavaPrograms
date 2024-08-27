@@ -67,12 +67,12 @@ public class reverseAStrinng {
 			start++;	
 		}
 		
-		//System.out.println(Arrays.toString(k));//[e, e, e, r, h, s, a, y, v, a, k]
+		System.out.println(Arrays.toString(k));
 		
 		String rev5="";
 		
-		for(char a2:k) {
-			rev5+=a2;
+		for(char a:k) {
+			rev5+=a;
 		}
 		
 		System.out.println(rev5);
@@ -99,11 +99,6 @@ public class reverseAStrinng {
 		}
 		
 		System.out.println(rev3);
-		
-		
-		//6thway  --- xor
-		
-		
 
 	}
 

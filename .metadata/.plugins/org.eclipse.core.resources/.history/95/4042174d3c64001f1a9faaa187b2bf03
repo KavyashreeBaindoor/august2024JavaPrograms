@@ -101,7 +101,7 @@ public class reverseAStrinng {
 		System.out.println(rev3);
 		
 		
-		//6thway  --- xor
+		//6thway
 		
 		
 

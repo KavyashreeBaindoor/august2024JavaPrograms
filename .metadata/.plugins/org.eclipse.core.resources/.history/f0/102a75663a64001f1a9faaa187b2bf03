@@ -1,9 +1,6 @@
 package August2024;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.concurrent.ArrayBlockingQueue;
 
 public class reverseAStrinng {
 
@@ -67,41 +64,13 @@ public class reverseAStrinng {
 			start++;	
 		}
 		
-		//System.out.println(Arrays.toString(k));//[e, e, e, r, h, s, a, y, v, a, k]
+		System.out.println(Arrays.toString(k));
 		
-		String rev5="";
-		
-		for(char a2:k) {
-			rev5+=a2;
-		}
-		
-		System.out.println(rev5);
 		
 		
 		//5th way --- arraylist
 		
-		char[] arr2=a.toCharArray();
-		ArrayList<Character> al=new ArrayList<Character>();
 		
-		
-		for(int i=0;i<arr2.length;i++) {
-			al.add(arr2[i]);
-		}
-		
-		Collections.reverse(al);
-		
-		//System.out.println(al); //[e, e, e, r, h, s, a, y, v, a, k]
-		
-		String rev3="";
-		
-		for(char c:al) {
-			rev3+=c;
-		}
-		
-		System.out.println(rev3);
-		
-		
-		//6thway  --- xor
 		
 		
 
