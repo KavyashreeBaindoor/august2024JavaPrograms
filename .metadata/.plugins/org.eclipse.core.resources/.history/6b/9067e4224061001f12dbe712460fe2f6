@@ -1,0 +1,18 @@
+package August2024;
+
+public class swapTwoNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int num1=9;
+		int num2=8;
+		
+		
+		
+		
+
+	}
+
+}

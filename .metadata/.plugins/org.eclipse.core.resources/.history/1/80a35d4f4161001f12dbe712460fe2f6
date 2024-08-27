@@ -1,0 +1,31 @@
+package August2024;
+
+public class swapTwoNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int num1=9;
+		int num2=1;
+		
+		int temp=num1; //9
+		num1=num2;
+		num2=temp;
+		
+		System.out.println(num1+" "+num2);
+		
+		//without 3rd variable
+		
+		 num1=num1+num2;  //10
+		 num2=num1-num2;//9
+		 num1=num1-num2; //1
+		 
+		 System.out.println(num1+" "+num2);
+		 
+		
+		
+
+	}
+
+}
