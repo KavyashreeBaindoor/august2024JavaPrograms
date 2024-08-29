@@ -1,0 +1,53 @@
+package August2024;
+
+import java.util.Arrays;
+
+public class StringQuestion1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String a="kav";
+		String b="shr";    //    ksahvr
+		
+		
+		char[] a1=a.toCharArray();
+		System.out.println(Arrays.toString(a1));//[k, a, v]
+		
+		char[] b1=b.toCharArray();  //[s,h,r]
+		
+		
+		char[] arr = new char[6];
+		int count=0;   //final array length
+		int j=0; 
+		
+		
+		
+	
+		for(int i=0;i<a1.length;i++) {
+			
+			arr[count]=a1[i];    
+			
+			 count++;      
+		
+			for(;i<b1.length;) {
+				arr[count]=b1[j]; 
+				count++;
+				break;
+				
+			
+				
+			}
+			
+			j++;
+		}
+		
+		
+	
+		
+		System.out.println(Arrays.toString(arr));
+		
+		
+	}
+
+}

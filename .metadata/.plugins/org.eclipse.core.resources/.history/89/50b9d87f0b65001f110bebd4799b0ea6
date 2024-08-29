@@ -1,0 +1,32 @@
+package August2024;
+
+public class AddAStringInBetween {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//kavya  ----  kav123ya
+		
+		String a="kavya";
+		
+		
+		//1 way
+		
+		StringBuilder b=new StringBuilder(a);
+		b.insert(3, "123");
+		
+		System.out.println(b);
+		
+		
+		//2nd way
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

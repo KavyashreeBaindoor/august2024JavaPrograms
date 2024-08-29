@@ -9,7 +9,6 @@ public class parseIntFromStringAndAddDigits {
 		String a="22kavya8";   // --- 12
 		
 		
-		
 		char[] arr=a.toCharArray();
 		String intval="";
 		

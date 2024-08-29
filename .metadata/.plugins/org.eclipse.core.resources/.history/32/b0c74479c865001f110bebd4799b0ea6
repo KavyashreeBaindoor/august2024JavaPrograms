@@ -1,0 +1,20 @@
+package August2024;
+
+import java.util.Arrays;
+
+public class StringQuestion1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String a="kav";
+		String b="shr";    //    ksahvr
+		
+		
+		char[] a1=a.toCharArray();
+		System.out.println(Arrays.toString(a1));
+		
+		
+	}
+
+}
