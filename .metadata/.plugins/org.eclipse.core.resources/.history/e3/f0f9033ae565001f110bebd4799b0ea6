@@ -1,0 +1,23 @@
+package August2024;
+
+public class FindingLengthOFStringwithoutLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name="kavyashree";
+		
+		
+		char[] arr=name.toCharArray();
+		int count=0;
+		
+		
+		for(char c:arr) {
+			count++;
+		}	
+		
+		
+		System.out.println(count);
+	}
+
+}

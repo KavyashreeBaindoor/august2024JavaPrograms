@@ -8,7 +8,7 @@ public class StringQuestion1 {
 		// TODO Auto-generated method stub
 
 		String a="kavya";
-		String b="nobit";    //    ksahvr
+		String b="nobit";    
 		String res="";
 		
 		

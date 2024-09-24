@@ -1,0 +1,36 @@
+package August2024;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class countVowelsInString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		String a="kavya";
+		String b="aeiou";
+		int count=0;
+		
+		String[] vowel=b.split("");
+		String[] input=a.split("");
+		
+		
+		ArrayList<String> al=new ArrayList<String>(Arrays.asList(vowel));
+		
+		
+		
+		for(int i=0;i<input.length;i++) {
+		if(al.contains(input[i]))
+				count++;
+		}
+		
+		
+		System.out.println(count);
+		
+		
+	}
+
+}

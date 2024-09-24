@@ -1,0 +1,57 @@
+package Array;
+
+import java.util.Arrays;
+
+public class secondLargestInArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr= {10,20,50,76,12};
+		
+		
+		Arrays.sort(arr);
+		
+		System.out.println(arr[1]);
+		
+		way2();
+		
+		
+
+	}
+
+	
+	
+	public static void way2() {
+		int[] arr1= {20,10,50,76,12};
+		
+		int max=0;
+		
+		for(int i=0;i<arr1.length-1;i++) {
+			
+			for(int j=i+1;j<arr1.length;j++) {
+			
+			if(arr1[i]>arr1[j])
+				max=arr1[i];
+			
+			arr1[i]=arr1[j];
+			arr1[j]=max;
+			
+			
+			
+			
+			}
+			
+		}
+		
+		
+		
+		
+		
+		System.out.println("hey"+max);
+		
+		
+		
+		
+	}
+}

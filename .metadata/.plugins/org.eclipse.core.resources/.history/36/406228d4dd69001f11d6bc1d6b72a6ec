@@ -1,0 +1,43 @@
+package Array;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+public class RemoveDuplicatesFromArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr= {1,2,3,1,1,1,1,2,2,2,2,34,4,4,4};
+		
+		Set s=new HashSet(Arrays.asList(arr));
+		
+		
+		
+	
+		/*
+		 * Set s=new HashSet();
+		 * s=Arrays.stream(arr).boxed().collect(Collectors.toSet());
+		 */
+	  
+	  
+		Iterator itr    =   s.iterator();
+		while(itr.hasNext()){
+		        System.out.print(itr.next()+",");
+		    }
+	 
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

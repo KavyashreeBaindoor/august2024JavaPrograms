@@ -1,0 +1,33 @@
+package Array;
+
+public class FindTheMissingNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr= {1,2,3,4,6};
+		int sum=0;
+		int expectedSum=0;
+		
+		
+		for(int a:arr) {
+			sum+=a;
+		}
+		
+		
+		System.out.println(sum);
+		for(int i=1;i<arr.length+1;i++) {
+			expectedSum+=i;
+		}
+		
+		
+		
+		System.out.println(expectedSum);
+		
+		
+		System.out.println(expectedSum-sum);
+		
+
+	}
+
+}

@@ -1,0 +1,49 @@
+package Array;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class FindFrequencyOfEachWordInStringArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String[] arr= {"i","am","from","bangalore"};
+		
+		
+		HashMap<String,Integer> h=new HashMap<String,Integer>();
+		int val=0;
+		
+		for(String a:arr) {
+			
+			if(h.containsKey(a)) {
+				
+				 val=h.get(a);
+				h.put(a, val+1);
+				
+			}else
+				
+				h.put(a, 1);
+			
+			
+		}
+		
+		
+		  for (Map.Entry<String, Integer> entry : h.entrySet()) {  
+	            System.out.println("Word:" + entry.getKey() + ", Frequency:" + entry.getValue());  
+	        }  
+		
+		System.out.println(h);
+		
+		
+		for(int i=0;i<h.size();i++) {
+			System.out.println("word:"+h.keySet().toArray()[i]+"frequency is:"+h.get(i));
+		}
+		
+		
+		
+		
+
+	}
+
+}

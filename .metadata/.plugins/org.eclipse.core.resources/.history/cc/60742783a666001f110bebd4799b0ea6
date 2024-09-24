@@ -1,0 +1,15 @@
+package August2024;
+
+public class countNumberOfWordsInString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		String k="i am kavya,i am from bangalore";
+		String[] arr=k.split(" ");
+		System.out.println(arr.length);
+	}
+
+}

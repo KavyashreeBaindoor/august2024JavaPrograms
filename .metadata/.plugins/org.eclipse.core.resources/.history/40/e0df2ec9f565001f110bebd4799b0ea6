@@ -1,0 +1,40 @@
+package August2024;
+
+public class IsStringPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a="civic";
+		
+		
+		char[] arr=a.toCharArray();
+		int j=1;
+		boolean flag=true;
+		
+		for(int i=0;i<arr.length/2;i++) {
+			if(arr[i]==arr[arr.length-j]) {
+				j++;
+				continue;
+			}else {
+				flag=false;
+				break;
+			}
+		}
+		
+		
+		if(flag)
+			System.out.println("palindrome");
+		else
+			System.out.println("not palindrome");
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

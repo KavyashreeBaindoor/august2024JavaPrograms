@@ -1,0 +1,21 @@
+package August2024;
+
+public class FindingLengthOFStringwithoutLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name="kavya";
+		
+		
+		char[] arr=name.toCharArray();
+		
+		System.out.println(arr.length);
+		
+		
+		
+		
+		
+	}
+
+}
