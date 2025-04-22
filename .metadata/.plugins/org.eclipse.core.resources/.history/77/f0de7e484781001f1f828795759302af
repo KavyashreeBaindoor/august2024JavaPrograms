@@ -1,0 +1,46 @@
+package RevisionSeptember2024;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class InterviewQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String[] a= {"ab","abc","abcd","abcde"};   //ab -4 tyms
+		
+		String res="";
+		
+		
+		HashMap<Character,Integer> h=new HashMap<Character, Integer>();
+		
+		for(String b:a) {
+			
+			for(int j=0;j<b.length();j++) {
+			if(h.containsKey(b.charAt(j))) {
+				int val=h.get(b.charAt(j));
+				h.put(b.charAt(j), val+1);
+				
+			}else
+				h.put(b.charAt(j), 1);	
+		}
+		
+		}
+	
+		
+		System.out.println(h);  //{a=4, b= d=2, 4, c=3,e=1}
+		int max=0;
+		
+		for(Map.Entry<Character, Integer> m:h.entrySet()) {
+			if(m.getValue()>max) {
+			max=m.getValue();
+		}		
+			
+		}
+		
+		System.out.println(max);
+
+	}
+
+}

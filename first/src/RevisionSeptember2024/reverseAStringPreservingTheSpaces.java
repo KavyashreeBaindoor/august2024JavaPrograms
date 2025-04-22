@@ -1,0 +1,24 @@
+package RevisionSeptember2024;
+
+import java.util.Arrays;
+
+public class reverseAStringPreservingTheSpaces {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		String a="i am kavya";
+		String rev="";
+		char[] arr=a.toCharArray();
+		
+		//System.out.println(Arrays.toString(arr));//[i,  , a, m,  , k, a, v, y, a]
+
+	for(int i=1;i<=arr.length;i++) {
+		rev+=arr[arr.length-i];	
+		}
+		
+	System.out.println(rev);
+	}
+
+}

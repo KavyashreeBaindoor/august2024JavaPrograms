@@ -1,0 +1,39 @@
+package RevisionSeptember2024;
+
+import java.util.Arrays;
+
+public class reverseEachWordOfAString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//i am kavya   --------------------            i ma ayvak
+		
+		
+		String a="i am kavya";
+		
+		String[] arr=a.split(" ");
+		String[] rev=new String[arr.length];
+		String rev1="";
+		
+		
+		for(int i=0;i<a.length();i++) {
+			System.out.println("hi");
+			for(int j=1;j<=arr[i].length();j++) {
+				System.out.println("hey");
+		rev1+=arr[i].charAt(arr[i].length()-j);
+				
+				
+			}
+			
+			rev[i]=rev1;
+		}
+		
+		
+		
+		System.out.println(Arrays.toString(rev));
+		
+		
+		
+	}
+
+}

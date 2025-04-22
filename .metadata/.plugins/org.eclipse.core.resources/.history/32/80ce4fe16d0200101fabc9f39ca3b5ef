@@ -1,0 +1,31 @@
+package newYear2025;
+
+public class NumberOfTimesStringRepeated {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//le repeated
+		
+		String name="lekhalele";
+		int count =0;
+		
+		for(int i=0;i<name.length();i++) {
+			
+			if(name.charAt(i)=='l' && name.charAt(i+1)=='e') 
+				count ++;
+			
+			}
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package RevisionSeptember2024;
+
+public class ReverseNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=56789;
+		String rev="";
+		
+		
+		while(a>0) {
+		int singleDigit=a%10;  //9
+		rev+=singleDigit;
+		a=a/10;   //8
+		
+		}
+		
+		
+		System.out.println(Integer.parseInt(rev));
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package newYear2025;
+
+public class IsnoPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
